@@ -5,7 +5,7 @@ services:
     build:
       context: ./admin
       dockerfile: Dockerfile
-    container_name: Sum_Voinseiha_System_Network_admin
+    container_name: Sum_Voinseiha_System_Network_admin12
     ports:
       - "8198:80"
 
@@ -13,6 +13,6 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    container_name: Sum_Voinseiha_System_Network_client
+    container_name: Sum_Voinseiha_System_Network_client13
     ports:
       - "8199:80"
